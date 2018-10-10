@@ -189,7 +189,6 @@ render() {
 <br>
 直接打印出这个“节点”，看会出现什么：
 ```javascript
-
 {
 	$$typeof: Symbol(react.element),
 	key: "key is key",
@@ -203,9 +202,7 @@ render() {
 	__proto__: Object
 }
 ```
-
 多打印几个组件，你会发现它们大同小异，结构基本一样，其实这就是React Element，当然打印组件不能明显感觉到它的特异性，我通过调用源码来给你展示一个button以作比较：
-
 ```javascript
 let config = {
     className: 'button',
@@ -213,7 +210,7 @@ let config = {
 }
 console.log(React.createElement('button', config, 'Click'))
 ```
-
+输出
 ```javascript
 {
 	$$typeof: Symbol(react.element),
@@ -249,7 +246,6 @@ console.log(React.createElement('button', config, 'Click'))
 - https://hackerone.com/reports/49652
 <br>
 - [ ] props 嗯，就是传入的props，打印 tabs 组件这个属性可以看到：
-
 ```javascript
 //console.log(tabs.props)
 {
@@ -268,8 +264,6 @@ console.log(React.createElement('button', config, 'Click'))
 	__proto__: Object
 }
 ```
-
-<br>
 可以看到，children属性里有着和当前对象相同的...
 
 `"哇，我知道了，这tm就是一个tree结构！"`
