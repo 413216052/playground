@@ -204,16 +204,14 @@ render() {
 }
 ```
 
-<br>
 多打印几个组件，你会发现它们大同小异，结构基本一样，其实这就是React Element，当然打印组件不能明显感觉到它的特异性，我通过调用源码来给你展示一个button以作比较：
 
 ```javascript
-
- let config = {
-     className: 'button',
-     type: 'button'
- }
- console.log(React.createElement('button', config, 'Click'))
+let config = {
+    className: 'button',
+    type: 'button'
+}
+console.log(React.createElement('button', config, 'Click'))
 ```
 
 ```javascript
