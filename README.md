@@ -189,6 +189,7 @@ render() {
 <br>
 直接打印出这个“节点”，看会出现什么：
 ```javascript
+
 {
 	$$typeof: Symbol(react.element),
 	key: "key is key",
