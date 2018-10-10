@@ -189,7 +189,7 @@ render() {
 <br>
 直接打印出这个“节点”，看会出现什么：
 ```javascript
-{
+tabs: {
 	$$typeof: Symbol(react.element),
 	key: "key is key",
 	props: {className: "coupon-prop prop-pane__tabs finance_coupon", onBeforeChange: ƒ, children: Array(2), activeKey: 0},
@@ -212,7 +212,7 @@ console.log(React.createElement('button', config, 'Click'))
 ```
 输出
 ```javascript
-{
+button: {
 	$$typeof: Symbol(react.element),
 	key: null,
 	props: {className: "button", type: "button", children: "Click"},
@@ -247,8 +247,7 @@ console.log(React.createElement('button', config, 'Click'))
 <br>
 - [ ] props 嗯，就是传入的props，打印 tabs 组件这个属性可以看到：
 ```javascript
-//console.log(tabs.props)
-{
+tabs.props: {
 	activeKey: 0,
 	children: Array(2)
 		0: {$$typeof: Symbol(react.element), props: {…}, …},
