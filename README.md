@@ -376,18 +376,31 @@ https://www.youtube.com/watch?v=ZCuYPiUIONs
 
 -----------
 > References：
+
 > https://www.w3cplus.com/javascript/intro-dom.html
+
 > https://www.w3cplus.com/javascript/node-properties-type-tag-and-contents.html
+
 > https://www.zhihu.com/question/54966411
+
 > https://segmentfault.com/a/1190000004114594
+
 > https://zhuanlan.zhihu.com/p/26105913
+
 > https://www.zhihu.com/question/31809713/answer/80089685
+
 > https://www.w3cplus.com/javascript/understand-the-Virtual-DOM.html
+
 > https://github.com/creeperyang/blog/issues/30
+
 > https://www.jianshu.com/p/df0b5a009e92
+
 > https://zhuanlan.zhihu.com/p/36500459
+
 > https://grfia.dlsi.ua.es/ml/algorithms/references/editsurvey_bille.pdf
+
 > https://zhuanlan.zhihu.com/p/20346379
+
 
   [1]: https://www.w3cplus.com/javascript/intro-dom.html
   [2]: https://www.w3cplus.com/javascript/node-properties-type-tag-and-contents.html
